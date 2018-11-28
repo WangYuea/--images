@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a1bbfbb-0b67-4178-83e2-cca958a9e961" name="默认" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/examples/crop-avatar/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="133" column="25" lean-forward="true" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index.html" />
+        <option value="$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index2.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="300" />
+    <option name="y" value="-12" />
+    <option name="width" value="1059" />
+    <option name="height" value="738" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="图片裁剪" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="图片裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="jq22cropper117120160810" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="图片裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="jq22cropper117120160810" type="462c0819:PsiDirectoryNode" />
+              <item name="cropper-master20160830" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="图片裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="jq22cropper117120160810" type="462c0819:PsiDirectoryNode" />
+              <item name="cropper-master20160830" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="图片裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="jq22cropper117120160810" type="462c0819:PsiDirectoryNode" />
+              <item name="cropper-master20160830" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="图片裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="jq22cropper117120160810" type="462c0819:PsiDirectoryNode" />
+              <item name="cropper-master20160830" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="crop-avatar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="推拽上传" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="推拽上传" type="462c0819:PsiDirectoryNode" />
+              <item name="packages-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="推拽上传" type="462c0819:PsiDirectoryNode" />
+              <item name="packages-master" type="462c0819:PsiDirectoryNode" />
+              <item name="packages-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="推拽上传" type="462c0819:PsiDirectoryNode" />
+              <item name="packages-master" type="462c0819:PsiDirectoryNode" />
+              <item name="packages-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DropzoneDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="推拽上传" type="462c0819:PsiDirectoryNode" />
+              <item name="packages-master" type="462c0819:PsiDirectoryNode" />
+              <item name="packages-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DropzoneDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="推拽与裁剪" type="b2602c69:ProjectViewProjectNode" />
+              <item name="推拽与裁剪" type="462c0819:PsiDirectoryNode" />
+              <item name="推拽上传" type="462c0819:PsiDirectoryNode" />
+              <item name="packages-master" type="462c0819:PsiDirectoryNode" />
+              <item name="packages-master" type="462c0819:PsiDirectoryNode" />
+              <item name="DropzoneDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\zl\推拽与裁剪\推拽上传\packages-master\packages-master\DropzoneDemo" />
+      <recent name="C:\Users\Administrator\Desktop\zl\推拽与裁剪\推拽上传\packages-master\packages-master\DropzoneDemo\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a1bbfbb-0b67-4178-83e2-cca958a9e961" name="默认" comment="" />
+      <created>1541384027392</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541384027392</updated>
+      <workItem from="1541384030515" duration="5259000" />
+      <workItem from="1541468488994" duration="3337000" />
+      <workItem from="1541554262139" duration="2632000" />
+      <workItem from="1541757669503" duration="835000" />
+      <workItem from="1541984217585" duration="623000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12686000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="300" y="-12" width="1059" height="738" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.287953" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="调试" order="7" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/examples/crop-avatar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="106" lean-forward="true" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3625">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3025">
+          <caret line="121" column="17" lean-forward="true" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/examples/crop-avatar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/examples/crop-avatar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2350">
+          <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/examples/crop-avatar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2350">
+          <caret line="94" column="6" lean-forward="true" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3750">
+          <caret line="150" column="47" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/demo/index.html" />
+    <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/docs/robots.txt" />
+    <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/docs/index.html" />
+    <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/src/img/bg.png" />
+    <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/jquery插件库.url" />
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/a.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/新建文本文档.txt" />
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index1.html" />
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/static/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/static/bootstrap-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#span#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片裁剪/jq22cropper117120160810/cropper-master20160830/examples/crop-avatar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/推拽上传/packages-master/packages-master/DropzoneDemo/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="133" column="25" lean-forward="true" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

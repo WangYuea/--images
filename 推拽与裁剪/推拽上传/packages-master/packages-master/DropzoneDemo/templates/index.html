@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="../static/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../static/dropzone.css">
+    <script src="../static/jquery.js"></script>
+    <script src="../static/dropzone.js"></script>
+
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        #actions {
+            margin: 2em 0;
+        }
+
+        /* Mimic table appearance */
+        div.table {
+            display: table;
+        }
+
+        div.table .file-row {
+            display: table-row;
+        }
+
+        div.table .file-row > div {
+            display: table-cell;
+            vertical-align: top;
+            border-top: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        /*div.table .file-row:nth-child(odd) {*/
+            /*background: #f9f9f9;*/
+        /*}*/
+
+        /* The total progress gets shown by event listeners */
+        #total-progress {
+            opacity: 0;
+            transition: opacity 0.3s linear;
+        }
+
+        /* Hide the progress bar when finished */
+        #previews .file-row.dz-success .progress {
+            opacity: 0;
+            transition: opacity 0.3s linear;
+        }
+
+        /* Hide the delete button initially */
+        #previews .file-row .delete {
+            display: none;
+        }
+
+        /* Hide the start and cancel buttons and show the delete button */
+
+        #previews .file-row.dz-success .start,
+        #previews .file-row.dz-success .cancel {
+            display: none;
+        }
+
+        #previews .file-row.dz-success .delete {
+            display: block;
+        }
+
+        .progress{
+            height: 3px;
+        }
+        .progress-bar-success{
+            background-color: #108ee9;
+        }
+        .cancel-btn{
+            cursor: pointer;
+        }
+        .dropzone{
+            margin: 2% 10%;
+        }
+        p{
+            margin: 0;
+        }
+        input.upload-input{
+            padding-left: 10px;
+            height: 30px;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container" id="container">
+    <div class="dropzone" id="myDropzone">
+        <div class="am-text-success dz-message">
+            <span class='glyphicon glyphicon-cloud-upload' style='font-size: 40px;color: #108ee9;'></span><br/><br/>
+            点击或将文件拖拽到这里上传<br/><br/>
+            支持扩展名：.doc .docx .pdf .pptx .zip
+        </div>
+    </div>
+
+    <div class="table table-striped files" id="previews">
+
+        <div id="template" class="file-row">
+            <!--<div>-->
+                <!--<span class="preview"><img data-dz-thumbnail/></span>-->
+            <!--</div>-->
+            <!--<div>-->
+                <!--<p class="name" data-dz-name></p>-->
+                <!--&lt;!&ndash;<strong class="error text-danger" data-dz-errormessage></strong>&ndash;&gt;-->
+            <!--</div>-->
+            <div>
+                <input type="text" name="name" class='upload-input' placeholder="输入名字"/>
+            </div>
+            <div>
+                <input type="text" name="des" class='upload-input' placeholder="输入描述"/>
+            </div>
+            <div>
+                <!--<p class="size" data-dz-size></p>-->
+                <p class="name" data-dz-name></p>
+                <div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+                     aria-valuenow="0">
+                    <div class="progress-bar progress-bar-success" style="width:0%;" data-dz-uploadprogress></div>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-primary start" style="display: none">
+                    <i class="glyphicon glyphicon-upload"></i>
+                    <span>Start</span>
+                </button>
+                <span data-dz-remove class="cancel">
+                    <!--<i class="glyphicon glyphicon-ban-circle"></i>-->
+                    <!--<span>Cancel</span>-->
+                    <span class='cancel-btn'>×</span>
+                </span>
+                <button data-dz-remove class="btn btn-danger delete">
+                    <i class="glyphicon glyphicon-trash"></i>
+                    <span>Delete</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <script>
+        Dropzone.autoDiscover = false;
+        // Get the template HTML and remove it from the doument
+        var previewNode = document.querySelector("#template");
+        previewNode.id = "";
+        var previewTemplate = previewNode.parentNode.innerHTML;
+        //开始先删除单个文件的布局
+        previewNode.parentNode.removeChild(previewNode);
+
+        var myDropzone = new Dropzone(document.getElementById('myDropzone'), { // 指定拖拽区为body
+            url: "/file/upload", // Set the url
+            // thumbnailWidth: 80,
+            // thumbnailHeight: 80,
+            // parallelUploads: 20,
+            addCancelUpload:true,
+            // addRemoveLinks: true,
+            method: 'post',
+            filesizeBase: 1024,
+            previewTemplate: previewTemplate,
+            acceptedFiles:".doc,.docx,.pdf,.pptx,.zip",
+            autoQueue: true, // 当队列有文件，是否立刻自动上传到服务器
+            previewsContainer: "#previews", // 指定存放文件队列区
+            sending: function (file, xhr, formData) {
+                formData.append("filesize", file.size);
+                // console.log(file)
+            },
+
+            success: function (file, response, e) {
+                console.log(file)
+                var res = JSON.parse(response);
+                if (res.error) {
+                    $(file.previewTemplate).children('.dz-error-mark').css('opacity', '1')
+                }
+            },
+            canceled: function(file) {
+                console.log(file)
+                return this.emit("error", file, "Upload canceled.");
+            }
+        });
+
+        // addRemoveLinks : true,//添加移除文件
+        //     autoProcessQueue: false,//不自动上传
+        //     dictCancelUploadConfirmation:'你确定要取消上传吗？',
+        //     dictMaxFilesExceeded: "您一次最多只能上传{{maxFiles}}个文件",
+        //     dictFileTooBig:"文件过大({{filesize}}MB). 上传文件最大支持: {{maxFilesize}}MB.",
+        //     dictDefaultMessage :
+        // '<span class="bigger-150 bolder"><i class="icon-caret-right red"></i> 拖动文件至该处</span> \
+        // <span class="smaller-80 grey">(或点击此处)</span> <br /> \
+        // <i class="upload-icon icon-cloud-upload blue icon-3x"></i>',
+        //     dictResponseError: '文件上传失败!',
+        //     dictInvalidFileType: "你不能上传该类型文件,文件类型只能是*.xls。",
+        //     dictCancelUpload: "取消上传",
+        //     dictCancelUploadConfirmation: "你确定要取消上传吗?",
+        //     dictRemoveFile: "移除文件",
+        //     uploadMultiple:false,
+
+    </script>
+
+</body>
+</html>
